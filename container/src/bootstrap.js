@@ -1,7 +1,8 @@
 
-import { mount } from 'productsRemote/ProductsApp';
-import 'cartRemote/cartApp';
+import { mount as productAppMount } from 'productsRemote/ProductsApp';
+import { mount as cartAppMount } from 'cartRemote/cartApp';
 
 console.log('Container!!');
 
-mount(document.querySelector('#products-root'));
+productAppMount(document.querySelector('#products-root'));
+cartAppMount(document.querySelector('#cart-root'));

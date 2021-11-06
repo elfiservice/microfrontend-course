@@ -12,7 +12,7 @@ module.exports = {
       name: 'cartMFP',
       filename: 'remoteEntry.js',
       exposes: {
-        './cartApp': './src/index',
+        './cartApp': './src/bootstrap',
       },
       shared: ['faker'],
     }),
