@@ -12,7 +12,7 @@ module.exports = {
       name: 'productsMFP',
       filename: 'remoteEntry.js',
       exposes: {
-        './ProductsApp': './src/index',
+        './ProductsApp': './src/bootstrap',
       },
       shared: ['faker'],
     }),
